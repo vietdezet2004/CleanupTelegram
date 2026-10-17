@@ -1,0 +1,21 @@
+# File cấu hình môi trường chứa thông tin bảo mật (API ID & API Hash)
+.env
+
+# File session Telegram chứa mã phiên đăng nhập (tuyệt đối không push)
+*.session
+*.session-journal
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
